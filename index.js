@@ -54,6 +54,9 @@ const csvTransform = new Transform({
   },
 });
 
+console.log("")
+const apikeyfake = "asd1341490few.1;34-23dd12909rjSA!n31r0923fj23f23vc"
+
 // Step 4: Validate and insert into MongoDB
 const validateAndInsert = new Transform({
   objectMode: true,
